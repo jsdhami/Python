@@ -1,5 +1,5 @@
 
-# Project Title
+# Python Complete Course
 
 A brief description of what this project does and who it's for
 
@@ -9,22 +9,18 @@ A brief description of what this project does and who it's for
 To deploy this project run
 
 ```bash
-  npm run deploy
+  pnpm i
 ```
 
-## Local Development
+```bash
+  pnpm dev
+```
 
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+started the development server and visit localhost:3000.
 
 ## Demo
 
 Insert gif or link to demo
-
-
-## 🚀 About Me
-I'm a full stack developer...
 
 
 ## License
