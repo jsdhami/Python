@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span className='logo-title'>Python Course</span>,
+  logo: <h1 className='font-bold text-3xl '>Python Course</h1>,
   project: {
     link: 'https://github.com/jsdhami/Python',
   },
