@@ -20,7 +20,7 @@ started the development server and visit localhost:3000.
 
 ## Demo
 
-Insert gif or link to demo
+Link: [DEMO](https://python.jsdhami.com.np/)
 
 
 ## License
