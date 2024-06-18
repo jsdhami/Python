@@ -1,14 +1,28 @@
 {
-  "index": "Introduction",
+  "-": {
+    "type": "separator",
+    "title": "Introduction"
+  },
+  "index": "What is Programming?",
+  "--": {
+    "type": "separator",
+    "title": "Learn Python"
+  },
+  "BasicPython": "Basic Python",
+  "DataStructures": "In-Build Data Structures",
+  "AdvancedPython": "Advanced Python",
+  "OOP-Python": "OOP Python",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  
   "about": {
     "title": "About",
     "type": "page"
   },
   "Blog": {
     "title": "Blog",
-    "type": "page"
+    "type": "page",
+    "href": "https://blog.jsdhami.com.np",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",

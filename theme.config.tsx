@@ -20,6 +20,22 @@ const config: DocsThemeConfig = {
       </Link>
     )
   },
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+          <div style={{background:'gray', textAlign: 'center', color:'white', fontSize:16 }}>{title}</div>
+        )
+      }
+      if (title === 'About') {
+        return <>❓ {title}</>
+      }
+      if (title === 'Basic Python') {
+        return <>📚 {title}</>
+      }
+      return <>➡ {title}</>
+    }
+  },
 
   docsRepositoryBase: 'https://github.com/jsdhami/Python/tree/main',
   footer: {
