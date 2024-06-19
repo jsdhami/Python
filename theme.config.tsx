@@ -5,8 +5,7 @@ import Link from 'next/link'
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span style={{ fontWeight: 800, fontSize: 22, color: 'black'
-      }}>
+      <span style={{ fontWeight: 800, fontSize: 22 }}>
         Python With JD
       </span>
     </>
