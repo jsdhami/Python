@@ -3,9 +3,14 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Link from 'next/link'
 
 const config: DocsThemeConfig = {
-  logo: () => <span style={{fontWeight: 800, fontSize:25, opacity:.85 }}>
-  Python With JD
-  </span>, 
+  logo: (
+    <>
+      <span style={{ fontWeight: 800, fontSize: 22, color: 'black'
+      }}>
+        Python With JD
+      </span>
+    </>
+  ), 
   project: {
     link: 'https://github.com/jsdhami/Python',
   },
@@ -24,7 +29,7 @@ const config: DocsThemeConfig = {
     titleComponent({ title, type }) {
       if (type === 'separator') {
         return (
-          <div style={{background:'gray', textAlign: 'center', color:'white', fontSize:16 }}>{title}</div>
+          <div className='md:font-extrabold, md:text-2xl' style={{background:'gray', textAlign: 'center', color:'white', fontSize:16 }}>{title}</div>
         )
       }
       if (title === 'About') {
