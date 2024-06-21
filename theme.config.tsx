@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/jsdhami/Python',
   },
   chat: {
-    link: 'https://discord.com/',
+    link: 'https://discord.gg/gxJU6eeE94',
   },
   banner: {
     key: '2.0-release',
