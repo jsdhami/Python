@@ -1,0 +1,54 @@
+# Conditional Statements in Python
+
+Conditional statements allow a program to execute different blocks of code based on certain conditions. These statements control the flow of execution based on conditions evaluated as `True` or `False`.
+
+## 1. if Statement
+The `if` statement executes a block of code if the given condition is `True`.
+
+```python filename="main.py" {3} copy
+age = 18
+if age >= 18:
+    print("You are eligible to vote.")
+```
+
+## 2. if-else Statement
+The `if-else` statement provides an alternative block of code to execute when the condition is `False`.
+
+```python filename="main.py" {3} copy
+num = 10
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+```
+
+## 3. if-elif-else Statement
+The `if-elif-else` statement checks multiple conditions and executes the first one that is `True`.
+
+```python filename="main.py" {3} copy
+score = 85
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+## 4. Nested if Statement
+An `if` statement inside another `if` statement is called a nested `if`.
+
+```python filename="main.py" {3} copy
+x = 15
+if x > 10:
+    print("Greater than 10")
+    if x > 20:
+        print("Also greater than 20")
+    else:
+        print("But not greater than 20")
+```
+
+## Conclusion
+Conditional statements are essential for decision-making in Python. They allow a program to execute different code based on specific conditions, making the program dynamic and responsive.

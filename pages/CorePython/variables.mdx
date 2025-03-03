@@ -1,0 +1,47 @@
+# Variables and Constants in Python
+
+## Variables in Python
+Variables store data values in memory. In Python, variable names can consist of letters, numbers, and underscores but cannot start with a number.
+
+### Declaring Variables
+```python filename="main.py" {3} copy
+x = 5        # Integer
+name = "Janak"  # String
+pi = 3.14    # Float
+is_active = True  # Boolean
+```
+
+### Multiple Assignments
+```python filename="main.py" {3} copy
+a, b, c = 10, 20, "Python"
+print(a, b, c)  # 10 20 Python
+```
+
+### Variable Reassignment
+Python allows reassigning variables with different data types.
+```python filename="main.py" {3} copy
+x = 10
+x = "Hello"  # Now x holds a string
+print(x)  # Hello
+```
+
+## Constants in Python
+Python does not have built-in constant support, but constants are usually declared in uppercase by convention.
+
+### Declaring Constants
+```python filename="main.py" {3} copy
+PI = 3.14159
+GRAVITY = 9.8
+```
+
+### Using Constants
+Constants help improve code readability and maintainability.
+```python filename="main.py" {3} copy
+radius = 5
+area = PI * (radius ** 2)
+print("Area of the circle:", area)
+```
+
+## Conclusion
+Variables store data that can change during program execution, while constants hold fixed values by convention. Understanding their usage improves code efficiency and readability.
+

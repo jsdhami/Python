@@ -1,0 +1,135 @@
+# Data Types in Python
+
+Python has several built-in data types that store different types of data. Understanding these types is essential for effective programming.
+
+## 1. Variables in Python
+Variables store data values in memory. In Python, variable names can consist of letters, numbers, and underscores but cannot start with a number.
+
+### Declaring Variables
+```python filename="main.py" {3} copy
+x = 5        # Integer
+name = "Janak"  # String
+pi = 3.14    # Float
+is_active = True  # Boolean
+```
+
+### Multiple Assignments
+```python filename="main.py" {3} copy
+a, b, c = 10, 20, "Python"
+print(a, b, c)  # 10 20 Python
+```
+
+### Constants (By Convention)
+Python does not have built-in constant support, but constants are usually declared in uppercase.
+```python filename="main.py" {3} copy
+PI = 3.14159
+GRAVITY = 9.8
+```
+
+## 2. Numeric Types
+Python provides three numeric types:
+
+1. **int**: Used to store whole numbers.
+2. **float**: Used to store decimal numbers.
+3. **complex**: Used to store complex numbers.
+
+```python filename="main.py" {3} copy
+# Example of Numeric Types
+x = 10  # int
+y = 3.14  # float
+z = 2 + 3j  # complex
+
+print(type(x))  # <class 'int'>
+print(type(y))  # <class 'float'>
+print(type(z))  # <class 'complex'>
+```
+
+## 3. Sequence Types
+Sequence types store multiple values in an ordered manner.
+
+### a. **List**
+Lists are mutable and can store mixed data types.
+```python filename="main.py" {3} copy
+my_list = [1, 2.5, "hello"]
+print(my_list[1])  # 2.5
+```
+
+### b. **Tuple**
+Tuples are immutable sequences.
+```python filename="main.py" {3} copy
+tuple_example = (10, 20, 30)
+print(tuple_example[0])  # 10
+```
+
+### c. **Range**
+Represents an immutable sequence of numbers.
+```python filename="main.py" {3} copy
+for i in range(5):
+    print(i)  # 0 1 2 3 4
+```
+
+## 4. Text Type
+### **String**
+Strings store text and are immutable.
+```python filename="main.py" {3} copy
+text = "Hello, Python!"
+print(text.upper())  # HELLO, PYTHON!
+```
+
+## 5. Set Types
+Sets store unique elements.
+
+### a. **Set**
+```python filename="main.py" {3} copy
+my_set = {1, 2, 3, 3}
+print(my_set)  # {1, 2, 3}
+```
+
+### b. **FrozenSet**
+Immutable version of a set.
+```python filename="main.py" {3} copy
+frozen = frozenset([1, 2, 3])
+print(frozen)
+```
+
+## 6. Mapping Type
+### **Dictionary**
+Stores key-value pairs.
+```python filename="main.py" {3} copy
+dict_example = {"name": "Alice", "age": 25}
+print(dict_example["name"])  # Alice
+```
+
+## 7. Boolean Type
+Boolean values can be **True** or **False**.
+```python filename="main.py" {3} copy
+is_python_fun = True
+print(type(is_python_fun))  # <class 'bool'>
+```
+
+## 8. Binary Types
+Used for handling binary data.
+
+### a. **Bytes**
+Immutable sequence of bytes.
+```python filename="main.py" {3} copy
+b = b"hello"
+print(type(b))  # <class 'bytes'>
+```
+
+### b. **Bytearray**
+Mutable version of bytes.
+```python filename="main.py" {3} copy
+ba = bytearray(5)
+print(ba)  # bytearray(b'\x00\x00\x00\x00\x00')
+```
+
+### c. **Memoryview**
+Memory-efficient handling of binary data.
+```python filename="main.py" {3} copy
+mv = memoryview(b"hello")
+print(mv[0])  # 104
+```
+
+## Conclusion
+Python provides diverse data types for handling different kinds of data efficiently. Understanding variables and data types ensures efficient and effective programming.

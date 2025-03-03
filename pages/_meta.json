@@ -4,15 +4,13 @@
     "title": "Introduction"
   },
   "index": "What is Programming?",
+  "useofprogramming": "Why to use Programming?",
   "--": {
     "type": "separator",
     "title": "Learn Python"
   },
-  "BasicPython": "Basic Python",
-  "DataStructures": "In-Build Data Structures",
-  "AdvancedPython": "Advanced Python",
-  "OOP-Python": "OOP Python",
-  "another": "Another Page",
+  "CorePython": "Core Python",
+
   
   "about": {
     "title": "About",

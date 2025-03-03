@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <span style={{ fontWeight: 800, fontSize: 22 }}>
-        Python With JD
+        Learn Python
       </span>
     </>
   ), 
@@ -34,8 +34,8 @@ const config: DocsThemeConfig = {
       if (title === 'About') {
         return <>❓ {title}</>
       }
-      if (title === 'Basic Python') {
-        return <>📚 {title}</>
+      if (title === 'Core Python') {
+        return <> 🐍 {title}</>
       }
       return <>➡ {title}</>
     }
