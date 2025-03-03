@@ -37,6 +37,27 @@ const config: DocsThemeConfig = {
       if (title === 'Core Python') {
         return <> 🐍 {title}</>
       }
+      if (title === 'Introduction') {
+        return <>1. {title}</>
+      }
+      if (title === 'Variables') {
+        return <>2. {title}</>
+      }
+      if (title === 'Datatypes') {
+        return <>3. {title}</>
+      }
+      if (title === 'Operators') {
+        return <>4. {title}</>
+      }
+      if (title === 'Statements') {
+        return <>5. {title}</>
+      }
+      if (title === 'Loops') {
+        return <>5. {title}</>
+      }
+      if (title === 'Functions') {
+        return <>6. {title}</>
+      }
       return <>➡ {title}</>
     }
   },
