@@ -13,7 +13,9 @@
   
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "href": "https://jsdhami.com.np",
+    "newWindow": true
   },
   "Blog": {
     "title": "Blog",
