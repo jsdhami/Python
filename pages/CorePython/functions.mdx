@@ -1,0 +1,91 @@
+# Functions in Python
+
+Functions in Python are reusable blocks of code that perform a specific task. They help in organizing code, reducing redundancy, and improving readability.
+
+## 1. Defining a Function
+A function is defined using the `def` keyword.
+
+```python filename="main.py" {3} copy
+def greet():
+    print("Hello, World!")
+
+# Calling the function
+greet()
+```
+
+## 2. Function with Parameters
+Functions can accept parameters to pass data.
+
+```python filename="main.py" {3} copy
+def greet(name):
+    print(f"Hello, {name}!")
+
+# Calling the function
+greet("Alice")
+```
+
+## 3. Function with Return Value
+Functions can return values using the `return` statement.
+
+```python filename="main.py" {3} copy
+def add(a, b):
+    return a + b
+
+# Calling the function
+result = add(5, 3)
+print("Sum:", result)
+```
+
+## 4. Default Parameters
+Functions can have default values for parameters.
+
+```python filename="main.py" {3} copy
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+# Calling the function
+greet()  # Uses default value
+greet("Bob")
+```
+
+## 5. Keyword Arguments
+Keyword arguments allow specifying parameters by name.
+
+```python filename="main.py" {3} copy
+def introduce(name, age):
+    print(f"Name: {name}, Age: {age}")
+
+# Calling the function with keyword arguments
+introduce(age=25, name="Charlie")
+```
+
+## 6. Variable-Length Arguments
+Functions can accept multiple arguments using `*args` and `**kwargs`.
+
+### Using `*args` for Positional Arguments
+```python filename="main.py" {3} copy
+def add_numbers(*args):
+    return sum(args)
+
+print(add_numbers(1, 2, 3, 4, 5))  # Output: 15
+```
+
+### Using `**kwargs` for Keyword Arguments
+```python filename="main.py" {3} copy
+def display_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+display_info(name="David", age=30, country="USA")
+```
+
+## 7. Lambda Functions
+Lambda functions are anonymous functions that can have only one expression.
+
+```python filename="main.py" {3} copy
+square = lambda x: x * x
+print(square(5))  # Output: 25
+```
+
+## Conclusion
+Functions help in making Python programs modular and efficient. Understanding functions enables better code organization and reuse.
