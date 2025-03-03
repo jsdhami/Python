@@ -31,9 +31,9 @@ const config: DocsThemeConfig = {
           <div className='md:font-extrabold, md:text-2xl' style={{background:'gray', textAlign: 'center', color:'white', fontSize:16 }}>{title}</div>
         )
       }
-      if (title === 'About') {
-        return <>❓ {title}</>
-      }
+      // if (title === 'About') {
+      //   return <>❓ {title}</>
+      // }
       if (title === 'Core Python') {
         return <> 🐍 {title}</>
       }
